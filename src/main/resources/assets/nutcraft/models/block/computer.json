@@ -1,0 +1,30 @@
+{
+    "parent": "block/block",
+    "textures": {
+		"particle": "minecraft:block/blast_furnace_top",
+        "computer_front": "nutcraft:block/computer_front",
+        "blast_furnace_side": "minecraft:block/blast_furnace_top"
+    },
+    "display": {
+        "fixed": {
+            "rotation": [ 0, 90, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.5, 0.5, 0.5 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Cube",
+            "from": [ 0, 0, 0 ], 
+            "to": [ 16, 16, 16 ], 
+            "faces": {
+                "north": { "texture": "#computer_front", "uv": [ 0, 0, 16, 16 ] },
+                "east": { "texture": "#blast_furnace_side", "uv": [ 0, 0, 16, 16 ] },
+                "south": { "texture": "#blast_furnace_side", "uv": [ 0, 0, 16, 16 ] },
+                "west": { "texture": "#blast_furnace_side", "uv": [ 0, 0, 16, 16 ] },
+                "up": { "texture": "#blast_furnace_side", "uv": [ 0, 0, 16, 16 ] },
+                "down": { "texture": "#blast_furnace_side", "uv": [ 0, 0, 16, 16 ] }
+            }
+        }
+    ]
+}
